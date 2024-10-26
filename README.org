@@ -1,0 +1,6 @@
+#+title: PanGuia
+#+author: Preston Pan
+#+description: my unified guix config
+* Introduction
+Panguia is my guix system channel which describes all the software I use
+and their configurations.
