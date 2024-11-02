@@ -1,10 +1,12 @@
 (use-modules (gnu)
+	     (guix config)
 	     (nongnu packages linux)
 	     (gnu packages wm)
 	     (gnu packages fonts)
 	     (gnu packages lisp))
-(use-service-modules cups desktop networking ssh xorg)
 
+(use-service-modules cups desktop networking ssh xorg)
+(substitute-urls '())
 (operating-system
   ;; todo: replace with linux-libre to run with entirely free system
   (kernel linux)
